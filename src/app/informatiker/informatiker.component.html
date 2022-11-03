@@ -1,0 +1,19 @@
+<div class="container">
+
+  <div class="one">
+    <div class="imgOne">
+      <img *ngIf="sendOne" @pokemonR src="{{row[0]}}"/>
+    </div>
+  </div>
+  <div class="two">
+    <div class="imgTwo">
+      <img *ngIf="sendOne" src="{{row[1]}}" @pokemonL/>
+    </div>
+  </div>
+  <div class="three">
+    <div class="imgThree">
+      <img *ngIf="sendOne" src="{{row[2]}}" @pokemonR/>
+    </div>
+  </div>
+
+</div>

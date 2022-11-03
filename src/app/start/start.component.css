@@ -1,0 +1,42 @@
+.startContainer {
+    background-color: #000B29;
+    min-height: 70vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.soItContainer {
+    color: white;
+    background-image: url("src\assets\images\heart.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    width: 30%;
+    text-align: center;
+    line-height: 35vh;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 10vw;
+}
+
+.soItContainer h1 {
+    font-size: 200px;
+    font-family: 'Merienda', cursive;
+}
+
+.textContainer {
+    width: 60%;
+    margin-left: auto;
+}
+
+.textContainer h1 {
+    color: white;
+    position: absolute;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 60px;
+    line-height: 65vh;
+}

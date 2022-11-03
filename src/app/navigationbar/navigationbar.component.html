@@ -1,0 +1,11 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+</style>
+
+<nav class="naviBar">
+  <div class="naviElement" [@hover]="naviElements[0].hover ? 'over' : 'away'" (mouseover)="mouseOver(0)" (mouseleave)="mouseAway(0)">{{naviElements[0].name}}</div>
+  <div class="naviElement" [@hover]="naviElements[1].hover ? 'over' : 'away'" (mouseover)="mouseOver(1)" (mouseleave)="mouseAway(1)">{{naviElements[1].name}}</div>
+  <div class="naviLogo"><img id="logo" src="assets/images/heart.png"></div>
+  <div class="naviElement" [@hover]="naviElements[2].hover ? 'over' : 'away'" (mouseover)="mouseOver(2)" (mouseleave)="mouseAway(2)">{{naviElements[2].name}}</div>
+  <div class="naviElement" [@hover]="naviElements[3].hover ? 'over' : 'away'" (mouseover)="mouseOver(3)" (mouseleave)="mouseAway(3)">{{naviElements[3].name}}</div>
+</nav>

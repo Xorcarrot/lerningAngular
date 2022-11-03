@@ -1,0 +1,50 @@
+.text {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.container {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 20px solid #000B29;
+    border-radius: 8px;
+}
+
+.pcontainer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 44%;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    background-color: #000B29;
+    color: white;
+}
+
+.imagecontainer {
+    width: 50%;
+    height: auto;
+    background-color: #000B29;
+    z-index: 1;
+    color: #D70026;
+    display: flex;
+}
+
+.eck {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 300px;
+}
+
+.drei {
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 400px;
+}

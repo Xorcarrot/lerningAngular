@@ -1,0 +1,23 @@
+<div *ngIf="disapear" @flyInOut class="buttonContainer">
+  <button class="spring" [@back]="springHo ? 'with' : 'without'" type="button" (mouseover)="hoverSpringOn()" (mouseleave)="hoverSpringOff()" (click)="saveVoter(0)">
+    <span>Frühling</span>
+  </button>
+  <button class="summer" [@back]="summerHo ? 'with' : 'without'" type="button" (mouseover)="hoverSummerOn()" (mouseleave)="hoverSummerOff()" (click)="saveVoter(1)">
+    <span>Sommer</span>
+  </button>
+  <button class="autumn" [@back]="autumnHo ? 'with' : 'without'" type="button" (mouseover)="hoverAutumnOn()" (mouseleave)="hoverAutumnOff()" (click)="saveVoter(2)">
+    <span>Herbst</span>
+  </button>
+  <button class="winter" [@back]="winterHo ? 'with' : 'without'" type="button" (mouseover)="hoverWinterOn()" (mouseleave)="hoverWinterOff()" (click)="saveVoter(3)">
+    <span>Winter</span>
+  </button>
+</div>
+
+<div *ngIf="!disapear" @flyInOut class="container">
+
+  <div class="tab" [style.height.%]="hights[0]"><div class="text"><h1>Frühling<br/><span class="num">{{this.countVotes(0)}}</span></h1></div></div>
+  <div class="tab" [style.height.%]="hights[1]"><div class="text"><h1>Sommer<br/><span class="num">{{this.countVotes(1)}}</span></h1></div></div>
+  <div class="tab" [style.height.%]="hights[2]"><div class="text"><h1>Herbst<br/><span class="num">{{this.countVotes(2)}}</span></h1></div></div>
+  <div class="tab" [style.height.%]="hights[3]"><div class="text"><h1>Winter<br/><span class="num">{{this.countVotes(3)}}</span></h1></div></div>
+
+</div>

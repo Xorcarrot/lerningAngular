@@ -1,0 +1,22 @@
+<div class="text">
+    <h1>Custom Code</h1>
+</div>
+
+<div (mouseover)="toggle()" (mouseleave)="froggl()" class="container">
+
+    <div class="pcontainer">
+        <p>Wer liebt es nicht? Stundenlang vor dem Computer sitzen und sich Tutorials, Berichte und Dokumentationen am laufenden Band reinzuquetschen. Das alles um am Ende ein par Zeilen Code mehr
+            zu schreiben. Aber nicht den guten funktionsfähigen Code, sondern Code der dir deinen Tag vermießen möchte. Einer mit Fehler die es natürlich verlangen die restliche Zeit auch noch mit der
+            suche nach ihnen zu verbringen.<br/>So ungefähr lässt sich mein bissheriger Weg mit dem Coden lernen beschreiben. Hat es Spaß gemacht? JA! War es frustrierend? DOPPELJA! Aber ich bereue 
+            es kein Stück und kann es nur weiterempfehlen. Nun nach der ganzen Zeit lernen kann ich getrost sagen:"Ich kann endlich meine Fehler auf Google suchen!" Was ich damit sagen will ist, es war 
+            bis hierhin kein einfacher Weg und ich bin nachwievor ein blühender Anfänger, ABER ich kann schon kleinere Projekte umsetzen und das ist für mich ein Erfolg.<br/>
+            Was bedeutet jetzt {{title}}? Das ist Code der sich nicht vorgefertigt irgendwo im Internet versteckt. Es ist selbsgeschriebener Code. Zum vergleich mit Websiten die mithilfe von Wordpress
+            erstellt wurden, wirkt die {{title}} Website wie ein Mammutprojekt. Jeder Schritt dauert länger und ist auch teilweise aufwändiger. Was macht dann diese Art von Website überhaupt relevant? 
+            Und zwar komplette Freiheit! Gestallterische sowie technische Freiheit und ich mag es einfach nicht an irgendwelche Limits gebunden zu sein.   </p>
+    </div>
+    <div [@open]="onContainer ? 'right' : 'left'" class="imagecontainer">
+        <div class="eck"><</div>
+        <div class="drei">3</div>
+    </div>
+
+</div>

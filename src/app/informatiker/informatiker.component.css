@@ -1,0 +1,62 @@
+.container {
+    width: 100vw;
+    max-width: 100vw;
+    margin-top: 150px;
+    background-color: #000B29;
+    border-top: 10px solid #D70026;
+    border-top: 10px solid #D70026;
+    overflow: hidden;
+}
+
+.one {
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.two {
+    overflow: hidden;
+}
+
+.three {
+    overflow: hidden;
+}
+
+.imgOne {
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imgTwo {
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imgThree {
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imgOne img {
+    display: block;
+    position: absolute;
+    right: -5vw;
+    overflow: hidden;
+}
+
+.imgTwo img {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    right: 100vw;
+}
+
+.imgThree img {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    right: -5vw;
+}
+
